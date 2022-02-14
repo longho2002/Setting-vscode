@@ -1,0 +1,287 @@
+/* .mtk10 {
+  color: transparent;
+  font-weight: bold;
+  background-image: linear-gradient(to right top, #9055ff, #13e2da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk14.mtkb {
+  color: transparent;
+  background-image: linear-gradient(to right top, #cc00ff, #ff6666);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtk7.mtkb {
+  color: transparent;
+  background-image: linear-gradient(to right top, #00c6ff, #0072ff);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk4 {
+  color: transparent;
+  background-image: linear-gradient(
+    to right top,
+    #9055ff,
+    #77a1d3,
+    #79cbca,
+    #e684ae
+  );
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk6 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #ec008c, #fc6767);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk3 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #c21500, #ffc500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk9 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #1d976c, #93f9b9);
+  font-style: italic;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+/*//////////////////////////////////////////////////////////////*/
+/* 
+.mtk12 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #ff0000, #ff99ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk15 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #9966ff, #ff6699);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk5 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #cc33ff, #99ff99);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.monaco-editor {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+  background-size: auto 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    #20e3b2,
+    #ffcc70,
+    #c850c0,
+    #4158d0
+  );
+  animation: gradient 5s ease alternate infinite;
+  height: 3px;
+}
+
+/* .monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-bottom
+  > .tab-border-bottom-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #a277ff,
+    #fc6c8f,
+    #a277ff,
+    #fc6c8f,
+    #ffcc70,
+    #fc6c8f,
+    #a277ff
+  );
+  animation: gradient 5s ease alternate infinite;
+  height: 3px;
+} */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.monaco-editor .cursors-layer .cursor {
+  background-image: linear-gradient(
+    45deg,
+    #6a5af9,
+    #ff2ced,
+    #ffb4dc,
+    #fc6c8f,
+    #ffb86c
+  );
+}
+
+/* Sweet sunset dots */
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .badge
+  .badge-content {
+  background: linear-gradient(to bottom, #fc28a8 25%, #fc28a8);
+}
+.codicon-search-view-icon:before,
+.codicon-run-view-icon:before,
+.codicon-extensions-view-icon:before,
+.codicon-source-control-view-icon:before,
+.codicon-explorer-view-icon:before {
+  color: #61afef;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.sizing-fit.active {
+  box-shadow: inset 0 -5px 25px #fc28a825;
+  position: sticky;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.sizing-fit.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, #fc28a8, #03edf9) !important;
+  opacity: 1;
+  z-index: 6;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.sizing-fit::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 0px;
+  transition: opacity 1s;
+  opacity: 0;
+  z-index: 6;
+}
+
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .action-item.checked {
+  box-shadow: inset 0 -5px 25px #ff000025;
+  position: relative;
+}
+
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .action-item.checked::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #fc28a8, #03edf9) !important;
+  opacity: 1;
+}
+
+.monaco-workbench .active-item-indicator {
+  position: absolute;
+  border-left-color: #03edf9;
+}
+
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .action-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.monaco-editor .monaco-hover {
+  box-shadow: 0px 0px 30px 10px #345052;
+}
+
+/*
+This puts a thin yellow border around the found items like Sublime did it
+*/
+.monaco-editor .findMatch,
+.monaco-editor .selectionHighlight {
+  border: 1px solid #ffc600;
+  border-radius: 2px;
+  background: transparent;
+}
